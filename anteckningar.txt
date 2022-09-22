@@ -1,0 +1,13 @@
+Anteckningar Interface 
+
+    - prop + tab tab = auto implemented properties (GET SET) kolla länk från i måndags
+    https://learn.microsoft.com/sv-se/shows/csharp-fundamentals-for-absolute-beginners/understanding-classes
+
+    ABSTRACT används när fältet/metoden i basklassen måste implementeras av ärvande klass. 
+    VIRTUAL kan man använda override för att skapa en ny instans i ärvande metod men inget måste som med ABSTRACT
+
+    polymorfism är när en metod osv får olika skepnader vid arv Poly =flera Morf = ändras
+
+    Skalbarhet handlar om att bygga ut programmen. Hur lätt är det att göra en ny typ av lagerhylla om man redan har ett interface/basklass? lätt..
+
+    SKALBARHET OCH Interface
