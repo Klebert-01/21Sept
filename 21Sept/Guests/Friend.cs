@@ -9,10 +9,15 @@ namespace _21Sept
     public class Friend : IGuest
     {
         public string Name { get; set; }
+        public int Age { get; set; }
+        public bool Glad { get; set; }
 
-        public Friend(string name)
+        public Friend(string name, int age, bool glad)
         {
             this.Name = name;
+            this.Age = age;
+            this.Glad = glad;
+
         }
         public void Talk()
         {
@@ -33,6 +38,10 @@ namespace _21Sept
         public void Drink()
         {
             Console.WriteLine($"{Name} is drinking");
+        }
+        public void Speech()
+        {
+            //kod
         }
     }
 }

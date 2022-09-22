@@ -2,7 +2,8 @@
 using _21Sept;
 
 
-IGuest[] guestList = new IGuest[] { new Collegue("Joel"), new Friend("Janne"), new Neighbor("Jens"), new Friend("Jessica"), new Collegue("Johanna") };
+IGuest[] guestList = new IGuest[] { new Collegue("Joel", 45, false), new Friend("Janne", 54, true), new Neighbor("Jens", 31, true), new Friend("Jessica", 23, false), new Collegue("Johanna", 43, true) };
+
 /// <summary>
 /// metod som startar festen
 /// </summary>
@@ -41,3 +42,4 @@ void StartParty()
 }
 
 StartParty();
+

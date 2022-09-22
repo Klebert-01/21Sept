@@ -3,6 +3,10 @@
     public interface IGuest
     {
         public string Name { get; set; }
+        public int Age { get; set; }
+        public bool Glad { get; set; }
+
+        public void Speech();
         public void Talk();
         public void Eat();
         public void Dance();
