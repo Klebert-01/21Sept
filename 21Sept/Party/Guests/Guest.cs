@@ -22,7 +22,14 @@ namespace _21Sept.Party.Guests
         }
         public void Dance()
         {
+            if (Glad)
+            {
             Console.WriteLine($"{Name} is dancing");
+            }
+            else
+            {
+                Console.WriteLine($"{Name} don't want to dance");
+            }
         }
         public void GoToBalcony()
         {
