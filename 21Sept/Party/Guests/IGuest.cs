@@ -12,6 +12,6 @@
         public void Dance();
         public void GoToBalcony();
         public void Drink();
-
+        
     }
 }
