@@ -12,6 +12,7 @@ namespace _21Sept.Garderoben
         public string Color { get; set; }
         public string Brand { get; set; }
         public decimal Price { get; set; }
+
         public Shirt(string brand, string color, decimal price, string type)
         {
             this.Type = type;
