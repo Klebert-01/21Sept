@@ -67,6 +67,8 @@ void StartParty()
 
 var nyGäst = new Guest();
 
+nyGäst.SittingDown();   // kan anropa dessa extension methods när jag gör en nytt objekt här men
+nyGäst.Smoking();       // metoderna dyker inte upp när jag försöker anropa dom i foreach-loopen ovan
 
 
 
