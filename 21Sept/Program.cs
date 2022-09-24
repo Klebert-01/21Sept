@@ -4,19 +4,15 @@ using _21Sept.Party.Furniture;
 
 
 
-
-
-
-
-
-
 //övning 1 party nedan, försök lägg in metoderna i en egna filer
 // gick inte att komma åt när jag provade, är det för att jag inte använt "using" och refererat till just det namespacet? using _21Sept.Party?
 
 IGuest[] guestList = new IGuest[] { new Collegue("Joel", 45, false), new Friend("Janne", 54, false), new Neighbor("Jens", 31, true), new Friend("Jessica", 23, false), new Collegue("Johanna", 43, true) };
 IFurniture[] furniture = new IFurniture[] { new Chair("blue", 5423.23m, "Ikea"), new Table("red", 432.34m, "Mio"), new Lamp("black", 125.5m, "Bosch") };
 
-
+/// <summary>
+/// skriver ut möbelobjekt
+/// </summary>
 void DisplayFurniture()
 {
     Console.WriteLine("Furniture:\n" +

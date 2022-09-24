@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace _21Sept.Garderoben
 {
-    public class Shirt : IGarment
+    public class Shirt : Garment
     {
-        public string Type { get; set; }
-        public string Color { get; set; }
-        public string Brand { get; set; }
-        public decimal Price { get; set; }
-
         public Shirt(string brand, string color, decimal price, string type)
         {
             this.Type = type;
